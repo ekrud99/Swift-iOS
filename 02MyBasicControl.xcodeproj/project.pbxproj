@@ -15,6 +15,9 @@
 		5DD9561C27C7CA330047CDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD9561A27C7CA330047CDEC /* LaunchScreen.storyboard */; };
 		5DD9562727C7CA340047CDEC /* _2MyBasicControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9562627C7CA340047CDEC /* _2MyBasicControlTests.swift */; };
 		5DD9563227C7CA340047CDEC /* _2MyBasicControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9563127C7CA340047CDEC /* _2MyBasicControlUITests.swift */; };
+		5DD9564627C7D6A10047CDEC /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD9564527C7D6A00047CDEC /* image1.png */; };
+		5DD9564B27C7D8360047CDEC /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD9564A27C7D8360047CDEC /* image2.png */; };
+		5DD9565027C7DA310047CDEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9564F27C7DA310047CDEC /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5DD9562D27C7CA340047CDEC /* 02MyBasicControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 02MyBasicControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD9563127C7CA340047CDEC /* _2MyBasicControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2MyBasicControlUITests.swift; sourceTree = "<group>"; };
 		5DD9563327C7CA340047CDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD9564527C7D6A00047CDEC /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		5DD9564A27C7D8360047CDEC /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		5DD9564F27C7DA310047CDEC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				5DD9560F27C7CA300047CDEC /* AppDelegate.swift */,
+				5DD9564527C7D6A00047CDEC /* image1.png */,
+				5DD9564A27C7D8360047CDEC /* image2.png */,
 				5DD9561127C7CA300047CDEC /* SceneDelegate.swift */,
 				5DD9561327C7CA300047CDEC /* ViewController.swift */,
 				5DD9561527C7CA300047CDEC /* Main.storyboard */,
+				5DD9564F27C7DA310047CDEC /* SecondViewController.swift */,
 				5DD9561827C7CA330047CDEC /* Assets.xcassets */,
 				5DD9561A27C7CA330047CDEC /* LaunchScreen.storyboard */,
 				5DD9561D27C7CA330047CDEC /* Info.plist */,
@@ -232,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DD9561C27C7CA330047CDEC /* LaunchScreen.storyboard in Resources */,
+				5DD9564B27C7D8360047CDEC /* image2.png in Resources */,
+				5DD9564627C7D6A10047CDEC /* image1.png in Resources */,
 				5DD9561927C7CA330047CDEC /* Assets.xcassets in Resources */,
 				5DD9561727C7CA300047CDEC /* Main.storyboard in Resources */,
 			);
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD9565027C7DA310047CDEC /* SecondViewController.swift in Sources */,
 				5DD9561427C7CA300047CDEC /* ViewController.swift in Sources */,
 				5DD9561027C7CA300047CDEC /* AppDelegate.swift in Sources */,
 				5DD9561227C7CA300047CDEC /* SceneDelegate.swift in Sources */,
@@ -442,7 +454,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-2MyBasicControl";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.MyBasicControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,7 +472,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-2MyBasicControl";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.MyBasicControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
