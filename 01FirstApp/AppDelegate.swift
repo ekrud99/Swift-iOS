@@ -1,10 +1,8 @@
 //
 //  AppDelegate.swift
-//  01FirstApp
-//
-//  Created by Dagyeong on 2022/02/24.
-//
 
+
+//프로젝트의 시작점 소스 파일
 import UIKit
 
 @main
@@ -13,6 +11,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        //앱이 맨 처음 구동되었을 떄, 실행되는 함수
+        //초기화 코드를...
+        
         // Override point for customization after application launch.
         return true
     }

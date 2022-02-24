@@ -1,9 +1,10 @@
 //
 //  SceneDelegate.swift
-//  01FirstApp
-//
-//  Created by Dagyeong on 2022/02/24.
-//
+
+//XCode 11부터 생긴 파일
+//SWift UI 플랫폼을 지원하기 위한 클래스 - 브릿지 역할
+//향후 3~4년 후 상용화 가능성 있음
+//iOS 13 OS부터 지원함. 그 이하 버전에서는 동작하지 않음
 
 import UIKit
 
