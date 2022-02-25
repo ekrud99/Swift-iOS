@@ -2,14 +2,15 @@
 //  AppDelegate.swift
 //  03ViewStruct
 //
-//  Created by Dagyeong on 2022/02/26.
-//
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    //전역변수 선언부 - 변수, 배열, 딕셔너리, 구조체, 클래스
+    var globalData: String = ""
+    var mainVC: ViewController? = nil
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
