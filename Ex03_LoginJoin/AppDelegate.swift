@@ -7,9 +7,21 @@
 
 import UIKit
 
+struct UserInfo {
+    var id: String = ""
+    var pw: String = ""
+    var name: String = ""
+    var phone: String = ""
+    
+}//유저 정보 저장 위한 구조체
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    //전역변수 들어가는 곳
+    var isLogin: Bool = false//로그인 상태 체크 위한 전역 변수
+    var isAgree: Bool = false//약관 동의 상태 체크 위한 전역 변수
+    var userInfo: UserInfo = UserInfo()//유저 정보 저장 구조체 생성
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
