@@ -1,0 +1,61 @@
+import UIKit
+
+//열거형 Enum
+
+//열거형 사용 이유: 숫자는 문자로 기억하는것이 쉽기 때문에
+//스위프트 열거형은 단순 배열이나 데이타타입이 아니라 확장형이다. 함수도 넣을 수 있음
+
+enum Weekday{
+    case mon
+    case tue
+    case wed
+    case thu, fri, sat, sun
+}
+
+var day: Weekday = Weekday.mon
+day = Weekday.sat
+day = .fri// 열거형 타입을 생략 가능, 일종의 타입 추정
+
+//switch case 조건문과 연동
+switch day{
+case .mon, .tue, .wed, .tue:
+    print("월화수목")
+case .fri, .sat:
+    print("금토")
+default :
+    print("일요일")
+}
+
+enum Hero: Int{
+    case Ironman = 0
+    case Spiderman = 1
+    case Hulk// 자동으로 2가 들어감
+}
+print(Hero.Ironman)
+print(Hero.Spiderman)
+print(Hero.Hulk)
+print(Hero.Ironman.rawValue)
+
+
+//열거형 안에 함수를 넣을 수 있다
+enum Month{
+    case jan, fab, mar
+    case apr, may, jun
+    case jul, aug, sep
+    case oct, nov, dec
+    func printMonth(){
+        switch self{
+        case .jan, .fab, .mar:
+            print("1, 2, 3월")
+        case .apr, .may, .jun:
+        print("4, 5, 6")
+        case .jul, .aug, .sep:
+            print("7, 8, 9")
+        case .oct, .nov, .dec:
+            print("10, 11, 12")
+        }
+        
+        
+    }
+}
+Month.apr.printMonth()
