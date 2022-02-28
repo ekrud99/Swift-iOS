@@ -13,6 +13,8 @@
 		5D65413427CD1FC00080D93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D65413227CD1FC00080D93D /* Main.storyboard */; };
 		5D65413627CD1FC30080D93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D65413527CD1FC30080D93D /* Assets.xcassets */; };
 		5D65413927CD1FC30080D93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D65413727CD1FC30080D93D /* LaunchScreen.storyboard */; };
+		5D65414227CD20E20080D93D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65414127CD20E20080D93D /* SecondViewController.swift */; };
+		5D65414527CD244E0080D93D /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65414427CD244E0080D93D /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D65413527CD1FC30080D93D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D65413827CD1FC30080D93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D65413A27CD1FC30080D93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D65414127CD20E20080D93D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5D65414427CD244E0080D93D /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5D65412E27CD1FC00080D93D /* SceneDelegate.swift */,
 				5D65413027CD1FC00080D93D /* ViewController.swift */,
 				5D65413227CD1FC00080D93D /* Main.storyboard */,
+				5D65414427CD244E0080D93D /* MyCollectionViewCell.swift */,
+				5D65414127CD20E20080D93D /* SecondViewController.swift */,
 				5D65413527CD1FC30080D93D /* Assets.xcassets */,
 				5D65413727CD1FC30080D93D /* LaunchScreen.storyboard */,
 				5D65413A27CD1FC30080D93D /* Info.plist */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D65414227CD20E20080D93D /* SecondViewController.swift in Sources */,
+				5D65414527CD244E0080D93D /* MyCollectionViewCell.swift in Sources */,
 				5D65413127CD1FC00080D93D /* ViewController.swift in Sources */,
 				5D65412D27CD1FC00080D93D /* AppDelegate.swift in Sources */,
 				5D65412F27CD1FC00080D93D /* SceneDelegate.swift in Sources */,
